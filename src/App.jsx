@@ -1,9 +1,12 @@
 import List from "./components/List/List";
+import ProfileCard from "./components/ProfileCard/ProfileCard";
+ 
 
 function App() {
   return (
-    <div>
-      <h1 className="text-blue-500 text-center ">My Links</h1>
+    <div className="w-screen h-screen bg-slate-500 flex flex-col items-center justify-center gap-6">
+      
+      <ProfileCard name={"Juelson"} age={19} location={"Portugal"}/>
       <List />
     </div>
   );
