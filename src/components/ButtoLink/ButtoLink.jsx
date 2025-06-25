@@ -1,5 +1,5 @@
 function ButtonLink({ children, className, href, ...props }) {
-    const baseClasses = `w-full h-12 rounded-lg text-white font-bold text-center flex items-center justify-center ${className}`;
+    const baseClasses = `w-full h-12 rounded-lg text-white font-bold text-center flex items-center justify-center transition duration 200 hover:scale-105 active:scale-95 ${className}`;
     if (href) {
         return (
             <a
